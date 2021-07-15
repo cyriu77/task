@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="28" viewBox="0 0 163 28">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 33.333px;
+        filter: url(#filter);
+        fill: #fcfaf9;
+        text-anchor: middle;
+        font-family: Cambria;
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="163" height="28" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="0.5" dy="0.866" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.732"/>
+      <feFlood result="flood" flood-color="#211e1f"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="В_УНИВЕР" data-name="В УНИВЕР" class="cls-1" x="79.667" y="23"><tspan x="78.667">В УНИВЕР</tspan></text>
+</svg>
